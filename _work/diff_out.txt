@@ -1,0 +1,47 @@
+===== replace old[117:118] new[117:118]
+  OLD | （9） 欧盟出台的《欧盟人工智能法》
+  NEW | （9） 欧盟出台的《欧盟人工智能法》（全文中译本）
+===== replace old[206:209] new[206:209]
+  OLD | 使用豆包的AI PPT 功能可以快速生成PPT（登录豆包后），在生成的过程中可以基于场
+  OLD | 景和风格选择PPT 模板，其中可选的风格包括（ ）。
+  OLD | A、商务 B、简约 C、喜庆 D、复古
+  NEW | 使用豆包的PPT 生成功能可以快速生成PPT（登录豆包后），在生成时可以选择篇幅和风
+  NEW | 格，其中可选的风格包括（ ）。
+  NEW | A、学术风 B、简约风 C、喜庆风 D、创意风
+===== replace old[210:212] new[210:212]
+  OLD | 答案解析：在浏览器中进入豆包官网并登录，在对话框的下方选择AI PPT，输入任意主
+  OLD | 题，让豆包生成PPT，在生成的过程中可以看到模板分类。
+  NEW | 答案解析：在浏览器中进入豆包官网并登录，在对话框的下方选择PPT 生成，可以看到篇
+  NEW | 幅和风格，点击风格，即可看到可供选择的风格模板。
+===== insert old[214:214] new[214:215]
+  NEW | a
+===== insert old[233:233] new[234:237]
+  NEW | 
+  NEW | ===== PAGE 12 =====
+  NEW | - 7 -
+===== delete old[235:237] new[239:239]
+  OLD | ===== PAGE 12 =====
+  OLD | - 7 -
+===== replace old[751:753] new[753:754]
+  OLD | 1. 能够从HathiTrust（https://www.hathitrust.org）中找到指定电子书并获取全文。
+  OLD | 2. 能够从剑桥数据库中（https://www.cambridge.org/core）、牛津学术数据库（https://aca
+  NEW | 1. 能够从剑桥数据库中（https://www.cambridge.org/core）、牛津学术数据库（https://aca
+===== replace old[754:755] new[755:756]
+  OLD | 3. 能够从NCBI 的bookshelf 数据库（https://www.ncbi.nlm.nih.gov/books/）中找到指定的
+  NEW | 2. 能够从NCBI 的bookshelf 数据库（https://www.ncbi.nlm.nih.gov/books/）中找到指定的
+===== replace old[765:767] new[766:768]
+  OLD | 信息素养赛题解析：HathiTrust 的高级检索
+  OLD | https://xxsuyang.com/course/10d636e2-03ad-42ec-a418-9bbb75c3a8c6?type=sxpt2&namestype
+  NEW | 信息素养赛题解析：剑桥数据库
+  NEW | https://xxsuyang.com/course/4eb7415a-17cb-4f8b-9be8-41705770c78c?type=sxpt2&namestype
+===== replace old[1098:1099] new[1099:1100]
+  OLD | IEEE Xplore、ACM、SPIE数字图书馆等常用中英文数据库的高级搜索功能。
+  NEW | IEEE Xplore、SPIE数字图书馆等常用中英文数据库的高级搜索功能。
+===== replace old[1102:1103] new[1103:1104]
+  OLD | ore、ACM等数据库进行检索，实质性体验高级检索功能。
+  NEW | ore等数据库进行检索，实质性体验高级检索功能。
+===== replace old[1105:1107] new[1106:1108]
+  OLD | 4. 探索：ScienceDirect、Wiley、Taylor&Francis、PubMed、IEEE Xplore、ACM这些数据
+  OLD | 库的高级检索界面，可以设置哪些检索条件？
+  NEW | 4. 探索：ScienceDirect、Wiley、Taylor&Francis、PubMed、IEEE Xplore这些数据库的高
+  NEW | 级检索界面，可以设置哪些检索条件？

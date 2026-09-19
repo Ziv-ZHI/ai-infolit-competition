@@ -1,0 +1,22 @@
+# ---- 工具内部数据（含个人备赛记忆，不上传）----
+.workbuddy/
+.workbuddy-ai/
+
+# ---- 系统与编辑器 ----
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# ---- 临时输出 ----
+_out.txt
+*.tmp
+*.log

@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>2026 大学生「AI+信息素养」大赛 · 备赛项目</title>
+<style>
+  :root{
+    --bg:#f6f7f9; --panel:#fff; --line:#e3e6ea; --line2:#eef1f4;
+    --ink:#1a1d21; --ink2:#5a6169; --ink3:#8b939c;
+    --brand:#1f5fbf; --brand-soft:#eaf1fc;
+    --accent:#c0392b; --accent-soft:#fdf0ee;
+    --mono:"Cascadia Mono",Consolas,"SF Mono",Menlo,monospace;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0;background:var(--bg);color:var(--ink);
+    font:15px/1.7 -apple-system,"Segoe UI","Microsoft YaHei","PingFang SC",sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:880px;margin:0 auto;padding:56px 22px 90px}
+
+  header h1{font-size:26px;line-height:1.35;margin:0 0 12px;letter-spacing:.2px;font-weight:650}
+  header .lede{margin:0;color:var(--ink2);font-size:14.5px;max-width:640px}
+  header .meta{margin-top:14px;font-size:13px;color:var(--ink3)}
+
+  .stats{display:flex;gap:10px;flex-wrap:wrap;margin:26px 0 0}
+  .chip{
+    background:var(--panel);border:1px solid var(--line);border-radius:9px;
+    padding:9px 14px;font-size:13px;color:var(--ink2);
+  }
+  .chip b{color:var(--ink);font-size:16px;font-family:var(--mono);margin-right:3px}
+
+  h2.sec{
+    font-size:13px;font-weight:650;color:var(--ink3);letter-spacing:.09em;
+    text-transform:uppercase;margin:44px 0 14px;
+  }
+
+  .entries{display:grid;gap:14px}
+  a.card{
+    display:block;text-decoration:none;color:inherit;
+    background:var(--panel);border:1px solid var(--line);border-radius:12px;
+    padding:20px 22px;transition:border-color .15s,box-shadow .15s,transform .15s;
+  }
+  a.card:hover{
+    border-color:#c3d3ea;box-shadow:0 3px 14px rgba(31,95,191,.09);transform:translateY(-1px);
+  }
+  a.card .row{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
+  a.card .t{font-size:16.5px;font-weight:620;color:var(--brand)}
+  a.card .badge{
+    font-size:11.5px;color:var(--brand);background:var(--brand-soft);
+    border-radius:5px;padding:2px 7px;font-weight:500;
+  }
+  a.card .badge.dim{color:var(--ink3);background:var(--line2)}
+  a.card .d{margin:7px 0 0;color:var(--ink2);font-size:13.8px}
+  a.card .p{
+    margin:10px 0 0;font-family:var(--mono);font-size:12px;color:var(--ink3);
+    word-break:break-all;
+  }
+
+  .note{
+    margin-top:34px;background:var(--panel);border:1px solid var(--line);
+    border-radius:12px;padding:20px 22px;
+  }
+  .note h3{margin:0 0 12px;font-size:14px;font-weight:620}
+  .note ul{margin:0;padding-left:19px;color:var(--ink2);font-size:13.6px}
+  .note li{margin:6px 0}
+  .note li b{color:var(--ink);font-weight:600}
+  .note .warn{color:var(--accent)}
+  .note code{
+    font-family:var(--mono);font-size:12.4px;background:var(--line2);
+    border-radius:4px;padding:1px 5px;
+  }
+
+  footer{margin-top:40px;font-size:12.5px;color:var(--ink3);line-height:1.9}
+  footer a{color:var(--ink3)}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <h1>2026 大学生「AI+信息素养」大赛<br>备赛项目</h1>
+    <p class="lede">
+      把官方命题范围与竞赛平台真题合并成一套可秒查的统一题库，
+      并把 50 个知识模块的备考要点整理成一张工作台。
+    </p>
+    <p class="meta">
+      题库依据《客观题命题范围及备赛建议》<b>2026.9.10 修订版</b>　·　
+      平台：智信数图知识竞赛平台 <span style="font-family:var(--mono)">js.zhixinst.com</span>
+    </p>
+  </header>
+
+  <div class="stats">
+    <span class="chip"><b>201</b>唯一题目</span>
+    <span class="chip"><b>148</b>平台真题</span>
+    <span class="chip"><b>51</b>官方样题</span>
+    <span class="chip"><b>2</b>两边重合</span>
+    <span class="chip"><b>50</b>知识模块</span>
+  </div>
+
+  <h2 class="sec">入口</h2>
+
+  <div class="entries">
+
+    <a class="card" href="./qbank.html">
+      <div class="row">
+        <span class="t">题库检索</span>
+        <span class="badge">最常用</span>
+        <span class="badge dim">单文件 · 离线可用</span>
+      </div>
+      <p class="d">
+        粘贴题干或关键词，直接给出<b>正确答案</b>与<b>官方解析路径</b>。
+        支持按来源、题库、题型筛选；两边重合的题目会同时展示两个版本的选项与答案。
+      </p>
+      <p class="p">./qbank.html</p>
+    </a>
+
+    <a class="card" href="./prep/index.html">
+      <div class="row">
+        <span class="t">备赛台</span>
+        <span class="badge dim">50 个知识模块</span>
+      </div>
+      <p class="d">
+        按知识模块整理的备考工作台：官方要求、参考资源直达链接、必考功能点、
+        版本变化点与考前检查清单。
+      </p>
+      <p class="p">./prep/index.html</p>
+    </a>
+
+    <a class="card" href="https://github.com/Ziv-ZHI/ai-infolit-competition/blob/main/_work/qbank/%E9%A2%98%E5%BA%93%E6%80%BB%E8%A1%A8.md">
+      <div class="row">
+        <span class="t">题库总表</span>
+        <span class="badge dim">Markdown · 逐题可读</span>
+      </div>
+      <p class="d">
+        全部 201 道题逐题列出，含题干、选项、答案与解析。
+        三部分：重合题 2 道 → 平台题库 148 道（按 A/B/C 分组）→ 官方样题 51 道（按模块 01–50）。
+      </p>
+      <p class="p">_work/qbank/题库总表.md</p>
+    </a>
+
+    <a class="card" href="https://github.com/Ziv-ZHI/ai-infolit-competition/tree/main/_work/qbank">
+      <div class="row">
+        <span class="t">数据与工具链</span>
+        <span class="badge dim">JSON · Python</span>
+      </div>
+      <p class="d">
+        <code>bank.json</code> 结构化题库、<code>搜题.py</code> 命令行检索、
+        <code>parse_official.py</code> / <code>merge_bank.py</code> 等抽取与合并脚本。
+      </p>
+      <p class="p">_work/qbank/</p>
+    </a>
+
+  </div>
+
+  <div class="note">
+    <h3>使用前请留意</h3>
+    <ul>
+      <li>
+        <b>同一套题库每次进入，题目顺序与选项顺序都会重新打乱。</b>
+        所以必须按<b>题干内容</b>检索，不要背「第 N 题选 X」。
+      </li>
+      <li>
+        <b>作答请按选项内容判定，不要只记字母。</b>
+        本项目中已发现同一道题先后出现
+        <code>A=D/B=B/C=C/D=J</code> 与 <code>A=C/B=B/C=D/D=J</code> 两种排布。
+      </li>
+      <li>
+        两边重合的 2 道题（云展网 PDF 工具、百度高级检索「关键词位置」）答案字母可能不同 ——
+        前者是<b>选项内容本身有差异</b>，后者是<b>选项顺序被打乱</b>，均已逐项核对并注明。
+      </li>
+      <li>
+        <span class="warn">题库内容来自竞赛平台答题报告与官方公开文件，仅供个人备赛复习使用。</span>
+      </li>
+    </ul>
+  </div>
+
+  <footer>
+    试卷构成：单选 20×2 ＋ 多选 20×2.5 ＋ 判断 10×1 ＝ 100 分。多选题零容错，是唯一分水岭。<br>
+    本页为项目导航，题库检索页与备赛台均为离线可用的单文件页面。
+  </footer>
+
+</div>
+</body>
+</html>
