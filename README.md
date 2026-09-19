@@ -9,11 +9,14 @@
 
 ## 在线入口
 
-| 页面 | 说明 |
-|---|---|
-| [题库检索](../../) | 粘贴题干秒出答案与官方解析路径，支持来源/题库/题型筛选 |
-| [备赛台](./prep/) | 50 个知识模块的备考工作台 |
-| [题库总表](./_work/qbank/题库总表.md) | 全部 201 题逐题列出 |
+> **主入口（推荐）** → https://ziv-zhi.github.io/ai-infolit-competition/
+
+| 页面 | 链接 | 说明 |
+|---|---|---|
+| **题库检索** | https://ziv-zhi.github.io/ai-infolit-competition/qbank.html | 粘贴题干秒出答案与官方解析路径，支持来源/题库/题型筛选 |
+| **备赛台** | https://ziv-zhi.github.io/ai-infolit-competition/prep/ | 50 个知识模块的备考工作台 |
+| **题库总表** | https://github.com/Ziv-ZHI/ai-infolit-competition/blob/main/_work/qbank/题库总表.md | 全部 201 题逐题列出（人可读） |
+| **仓库源码** | https://github.com/Ziv-ZHI/ai-infolit-competition | 含 12 份答题报告原图、官方 PDF、全部工具脚本 |
 
 ---
 
